@@ -4,7 +4,7 @@
 # LOGICA DE PROGRAMAÇÃO
 Pasta de codigos elaborados em aulas de logica de programação.
 
-## *__DESENVOLVIMENTO DE SISTEMAS__*
+## __DESENVOLVIMENTO DE SISTEMAS__
 Aqui será disponibilizado conteudo diariamente sobre programação realizado nas aulas.
 
 ### ACOMPANHE
