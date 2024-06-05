@@ -13,7 +13,7 @@ public class exercicio03 {
          System.out.println("Digite o meses: ");
          int mes = leia.nextInt();
          System.out.println("Digite os dias: ");
-         int dia = leia .nextInt();
+         int dia = leia.nextInt();
          
          int idade = ((ano * 365) + (mes * 30) + (dia));
          

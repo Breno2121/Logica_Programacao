@@ -9,15 +9,20 @@ public class exercicio_04 {
      Scanner leia = new Scanner (System.in);
      
      System.out.println("Digite numero de eleitores: ");
-     int eleitores = leia.nextInt();
+     double eleitores = leia.nextInt();
      System.out.println("Digite o numero de votos em branco: ");
-     int votob = leia.nextInt();
+     double votob = leia.nextInt();
      System.out.println("Digite o numero de votos nulos: ");
-     int voton = leia.nextInt();
+     double voton = leia.nextInt();
      System.out.println("Digite numero de votos validos: ");
-     int votov = leia.nextInt();
+     double votov = leia.nextInt();
      
+     double PVB = (votob * 100) / eleitores;
+     double PVN = (voton * 100) / eleitores;
+     double PVV = (votov * 100) / eleitores;
      
-     
+     System.out.println("Votos em branco: " + PVB + "%");
+     System.out.println("Votos nulos: " + PVN + "%");
+     System.out.println("Votos validos: " + PVV + "%");
     }
 }
