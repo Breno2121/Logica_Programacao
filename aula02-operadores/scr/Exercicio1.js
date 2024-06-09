@@ -3,7 +3,6 @@ import leia from "readline-sync"
 var senha = 1234;
 
 while (senhadig != senha){
-
 var senhadig = leia.questionInt("Digite a senha: ");
 
 switch(senhadig){
