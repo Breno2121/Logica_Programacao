@@ -1,0 +1,15 @@
+{
+  "name": "logica_programacao",
+  "version": "1.0.0",
+  "description": "![img](https://escolakoru.com.br/wp-content/uploads/2023/04/algoritmos-e-logica-de-programacao-o-que-voce-precisa-saber.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
