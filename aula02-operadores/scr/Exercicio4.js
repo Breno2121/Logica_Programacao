@@ -7,7 +7,7 @@ while (cnt == 0){
 console.log("Digite o numero de maça: \n");
 var quantidade = leia.question();
 
-if (quantidade > 12){
+if (quantidade >= 12){
     var preco = (quantidade * 0.25);
 } else{
     var preco = (quantidade * 0.30);
