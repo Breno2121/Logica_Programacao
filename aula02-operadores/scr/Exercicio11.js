@@ -5,7 +5,8 @@ var golst1 = leia.questionInt("Digite a quantidade de gols: \n");
 var time2 = leia.question("Digite o nome do segundo time: \n");
 var golst2 = leia.questionInt("Digite a quantidade de gols: \n");
 
-var diferenca = (golst1 - golst2);
+var diferenca = -1 * (golst1 - golst2);
+
 
 if (diferenca == 0){
     console.log("EMPATE!");
