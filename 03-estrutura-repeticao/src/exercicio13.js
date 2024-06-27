@@ -1,15 +1,12 @@
 import leia from 'readline-sync'
 //parseint
-var numero = leia.questionInt("Digite um numero: ");
+var binario = "";
+var decimal = leia.questionInt("Digite um numero: ");
 
-var decimal = numero;
-
-while(valor > 0){
-var resultado = decimal / 2; 
+while(decimal > 0){
+var resultado = parseInt(decimal / 2); 
 var resto = decimal % 2;
-
-valor = resultado
-
-var binario = binario + resto;
+var decimal = resultado;
+binario = resto + binario;
 }
-
+console.log(binario)
