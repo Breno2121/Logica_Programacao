@@ -1,8 +1,15 @@
 import leia from 'readline-sync'
 
 var lista = [];
+var listai = [];
 
-for(var i = 9; i >= 0; i--){
-    lista[i] = leia.question("Digite um numero: ");
+for(var j = 9; j > 0;){
+for(var i = 0; i <= 9; i++){
+    var numero = leia.question("Digite um numero: ");
+lista.push(" " + numero);
+listai[j] = " " + numero;
+j--;
 }
-console.log(lista);
+}
+console.log("Sequencia: " + lista);
+console.log("Inverso: " + listai);
