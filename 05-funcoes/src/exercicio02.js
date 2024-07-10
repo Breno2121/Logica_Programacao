@@ -1,27 +1,21 @@
-import leia from "readline-sync";
 
-var vetor = [];
-var vetoraux = [];
-var vetoraux2 = [];
-var ncomp;
+var lista = [];
+var compara = [];
 
 for (var i = 0; i < 10; i++) {
-  vetor.push(parseInt(Math.random() * 15));
+  lista.push(parseInt(Math.random() * 50));
 }
-console.log(vetor);
+console.log(lista);
+console.log("\n - - - - - - - - - - - - - - - \n");
 
-function verif(){
-    for( var i = 0; i < vetor.length; i++){
-        for(var j = 0; j < vetor.length; j++){
-           if(j === 0){
-            ncomp = vetor[j]
-           }
-            if(vetor[j] == ncomp){
-              vetoraux[j] = ncomp;
-            }
-        }
+for (var i = 0; i < lista.length; i++) {
+  for (var j = i + 1; j < lista.length; j++) {
+    if (lista[i] === lista[j]) {
+      compara.push(lista[i]);
     }
-    return vetoraux
+  }
 }
-vetoraux2 = verif();
-console.log(vetoraux2);
+if(compara > 0){
+  console.log("Numeros repetidos sao: " + compara);
+}else {console.log("Nao ha numeros repetidos.");
+}
